@@ -1,7 +1,10 @@
+//WAP to perform swapping of 2 variable
 #include<stdio.h>
 int main()
 {
-int a=10,b=5;
+int a,b;
+printf("ENTER A AND B");
+scanf("%d %d",&a,&b);
 a=a+b;
 b=a-b;
 a=a-b;
