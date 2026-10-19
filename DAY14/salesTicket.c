@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main()
 {
-int ticket;int totalTicket=0;int day;int count=0;int stopped_early=0;
+int ticket;int totalTicket=0;int day;int count=0;int stopped_early=0;int n;
+printf("Enter the number of days:");
+scanf("%d",&n);
 printf("Sales:"); 
-for(day=1;day<=3;day++){
+for(day=1;day<=n;day++){
     scanf("%d",&ticket);
 
     if(ticket==0){
